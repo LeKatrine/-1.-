@@ -81,10 +81,9 @@ print("""
           .           `MM*                . '
             -.         #M: .    .       .-
               ` .         .,         .-
-                  '-.-~ooHH__,,v~--`
-""")
+                  '-.-~ooHH__,,v~--` """)
 sleep(1)
-print("\033[2J", end="")
+print("\033[2J")
 
 print("\u001b[25A", end="")
 print("""
